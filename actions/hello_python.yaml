@@ -1,0 +1,12 @@
+---
+  name: "hello_python"
+  runner_type: "python-script"
+  description: "Super simple ST2 Hello World in Python"
+  enabled: true
+  entry_point: "hello.py"
+  parameters:
+    name:
+      type: "string"
+      description: "A name"
+      required: true
+      position: 0
