@@ -3,7 +3,7 @@
   runner_type: "python-script"
   description: "Super simple ST2 Hello World in Python"
   enabled: true
-  entry_point: "hello.py"
+  entry_point: "hello_python.py"
   parameters:
     name:
       type: "string"
